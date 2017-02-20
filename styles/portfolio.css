@@ -1,0 +1,105 @@
+/**
+* Layout styles
+*/
+:visited{
+    color: #609;
+}
+a:link{
+    color:#217AC0
+}
+a:link:hover{
+text-decoration: underline
+}
+a :hover {
+    text-decoration: underline;
+    color: blue;
+}
+.portfolio_item {
+    left: right;
+    margin: 0 0 20px 0;
+    padding: 20px 20px 0 20px;
+    box-shadow: 1px 2px 2px #eaeaea;
+    border: 1px solid #eaeaea;
+}
+
+.portfolio_item h2 {
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.portfolio_item h2 a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.portfolio_item .role_wrapper {
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    /*div.test  {*/
+        /*display: inline-block;*/
+        /*vertical-align: bottom;*/
+        /*border: 1px solid #f00;*/
+    /*}*/
+.portfolio_item .role {
+    float: left;
+    color: #1db7a9;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 10px 10px 10px;
+    opacity: 0.5;
+}
+
+.portfolio_item .role_title {
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: #1db7a9;
+    text-align: right;
+}
+
+.portfolio_item p.role_skills {
+    width:80%;
+    float: right;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    text-align: right;
+    font-size: 18px;
+    color: #a6a6a6;
+}
+
+/**
+* Individual
+*/
+
+.signeasy {
+    background: #fff ;
+}
+
+.styledotme {
+    background: #fff ;
+}
+
+.inmobi {
+    background: #fff ;
+}
+
+.steero {
+    background: #fff ;
+}
