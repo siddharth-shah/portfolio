@@ -32,7 +32,8 @@ class About extends Component {
                         with 3 years of experience in developing
                         applications for
                         mobile and tablets.</p>
-                    <p>My experience in the community has been around working with products in the following domains:</p>
+                    <p>My experience in the community has been around working with products in the following
+                        domains:</p>
                     <ul>
                         <li>Business and Productivity</li>
                         <li>Fashion</li>
@@ -40,21 +41,48 @@ class About extends Component {
                         <li>Social Networking</li>
                         <li> Service providers</li>
                     </ul>
-                    <p>These days I am solving two interesting problems, one is in the field of Logistics(IoT stuff, oh
-                        yeah!) and another is a platform for people in creative fields like photography, arts, music
+                    <p>These days I am solving two interesting problems, one is in the field of Logistics
+                        and another is a platform for people in creative fields like photography, arts, music
                         etc.</p>
 
                     <h4>Skills</h4>
-                    <p>Android app development is what I count as my expertise.</p>
-                    <p>I also hack-around(<em style={{fontSize: '1em', fontWeight: 'normal'}}>to know enough to join the
-                        conversation :P</em>) python and its frameworks(Django and flask), Java EE, html,css,
-                        javascript, SQL frameworks(MySQL and posgreSQL), MongoDb.</p>
-                    <p>These days I am learning full stack javascript and Architecture for Cloud Applications</p>
+                    <h6>Android</h6>
+                    <p>Android app development is what I count as my expertise. <span>Couple of things that I'd like to add regarding the same are:</span>
+                    </p>
+                    <ul>
+                        <li>Basic components of Android Application : Activities, Services, Broadcast Receivers and
+                            Content Providers
+                        </li>
+                        <li>Android platform tools from 16(ice cream sandwich) to 25(Android N)</li>
+                        <li>User Interface Design
+                            <ul>
+                                <li>Support different screens size(Mobiles and Tablets)</li>
+                                <li>Material Design</li>
+                            </ul>
+                        </li>
+                        <li>Managing Network calls(REST APIs) and architecture</li>
+                        <li>Google Play Store and Android developer console insights
+                            <ul>
+                                <li>Content (PlayStore Description and Screenshots )</li>
+                                <li>Installs & downloads</li>
+                                <li>User acquisition & channels</li>
+                                <li>Ratings & reviews analysis</li>
+                                <li>Support</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h6>Other Skills</h6>
+                    <p>I also hack-around python and its frameworks(Django and flask); Java EE; html,css;
+                        javascript and frameworks(node.js, react.js); SQL frameworks(MySQL and posgreSQL) and a bit of
+                        NOSQL DB (MongoDb and redis)</p>
+                    <p>These days I am learning full stack javascript(this website is my first work) and Architecture
+                        for Cloud Applications</p>
 
                     <h4>Project Interests</h4>
                     <p>Here's a list of stuff I am looking forward to work on(in no particular order)</p>
                     <div className="clearfix">
-                        <div className="clearfix" style={{float: 'left',width:'40%'}}>
+                        <div className="clearfix" style={{float: 'left', width: '40%'}}>
                             <h6>Technologies</h6>
                             <ul>
                                 <li>Virtual Reality</li>
@@ -64,7 +92,7 @@ class About extends Component {
                                 <li>Blockchain</li>
                             </ul>
                         </div>
-                        <div className="clearfix" style={{float: 'left',width:'40%'}}>
+                        <div className="clearfix" style={{float: 'left', width: '40%'}}>
                             <h6>Business Domains</h6>
                             <ul>
                                 <li>Education</li>
