@@ -24,7 +24,6 @@ class Portfolio extends Component {
 
         const PortfolioRows = portfolio.map((row) => {
             const classname = classNames('portfolio_item', 'clearfix', row.classname);
-            if (row.title === 'Steero' || row.title === 'InMobi') {
                     return (
                         <div key={row.title} className={classname}>
                             <h2><a href={row.link}
@@ -34,15 +33,7 @@ class Portfolio extends Component {
                         </div>
 
                     )
-                } else {
-                    return (
-                        <div key={row.title} className={classname}>
-                            <h2><a href={row.playstorelink} target="_blank">visit on playstore&nbsp;&nbsp;</a> <a href={row.link} target="_blank">visit site</a>&nbsp;{row.title} </h2>
-                            {RoleRows(row.roles)}
-                        </div>
 
-                    )
-            }
 
         });
 
