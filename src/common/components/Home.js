@@ -20,7 +20,7 @@ class Home extends Component {
             <div className="posts">
 
                 <div className="post banner">
-                    <h1 className="post-title">Let's take that <em>Idea</em> to <em>Production</em>.
+                    <h1 className="post-title">Let's take your <em>Idea</em> to <em>Production</em>.
                     </h1>
                 </div>
 
